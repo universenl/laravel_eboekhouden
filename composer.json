@@ -1,5 +1,5 @@
 {
-    "name": "universenl/laravel_eboekhouden",
+    "name": "universenl/laravel_account_api",
     "description": "Eboekhouden provider for Laravel",
     "type": "library",
     "license": "MIT",
