@@ -18,6 +18,7 @@ class EboekhoudenRelation extends AccountingRelation {
                 ->setId($item['ID'])
                 ->setAddDate(new DateTime($item['AddDatum']))
                 ->setCode((int) $item['Code'])
+                ->setType($item['Bp'])
                 ->setCompany($item['Bedrijf'])
                 ->setContact($item['Contactpersoon'])
                 ->setGender($item['Geslacht'])

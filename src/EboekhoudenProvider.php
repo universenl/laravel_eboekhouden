@@ -367,7 +367,7 @@ class EboekhoudenProvider implements AccountingProvider {
             "Aanhef" => "",
             "IBAN" => "",
             "BIC" => "",
-            "BP" => "",
+            "BP" => (string) $relation->getType() ?? '',
             "Def1" => "",
             "Def2" => "",
             "Def3" => "",
