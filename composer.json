@@ -11,7 +11,7 @@
     ],
     "require": {
         "laravel/framework": "^8.0",
-        "universenl/laravel_account_base": "^v2.1.3",
+        "universenl/laravel_account_base": "dev-main",
         "ext-soap": "*",
         "php": "^7.4"
     },
